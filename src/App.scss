@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainPage {
+
+    padding: 12px;
+
+    button {
+        padding: 12px 24px;
+        font-size: 12px;
+        font-weight: 700;
+        width: 140px;
+        cursor: pointer;
+        margin: 20px;
+        text-transform: uppercase;
+    }
+
+    .mainView {
+
+        padding: 10px;
+
+        .buttonsDiv {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+        }
+
+    }
+
+
+    .geolocation {
+
+        .group {
+            padding: 20px;
+            .geolocationDetails {
+                
+            }
+            
+        }
+
+        .buttons {
+
+        }
+
+    }
+
+}
+

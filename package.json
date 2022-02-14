@@ -1,24 +1,33 @@
 {
   "name": "mobile-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "author": "szczypiorofix",
   "private": true,
+  "homepage": "https://mobile.wroblewskipiotr.pl",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.21",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "file-loader": "^6.2.0",
+    "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "^4.5.5",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "4.0.3",
+    "typesafe-actions": "^5.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "node-sass": "4.14.0",
+    "sass-loader": "^10",
+    "typescript": "~4.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "dist": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

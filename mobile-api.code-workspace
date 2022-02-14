@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "Noto Mono, monospace",
+		"editor.lineHeight": 17,
+		"editor.fontLigatures": true,
+		"editor.mouseWheelZoom": true,
+		"editor.cursorWidth": 7,
+		"editor.autoIndent": "full",
+		"editor.showUnused": true,
+		"editor.tabSize": 4,
+		"editor.cursorBlinking": "phase",
+		"files.autoGuessEncoding": false,
+		"files.encoding": "utf8",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			"**/dist": true
+		},
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "/data/public/css"
+			},
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "/data/public/css"
+			}
+		],
+		"eslint.alwaysShowStatus": true,
+		"eslint.format.enable": true
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"dsznajder.es7-react-js-snippets",
+			"wallabyjs.quokka-vscode",
+			"wayou.vscode-todo-highlight"
+		]
+	}
+}
